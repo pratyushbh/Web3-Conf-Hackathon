@@ -107,10 +107,12 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.ProductList{
+  width: 1500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.item{
+  list-style-type: none;
 }
